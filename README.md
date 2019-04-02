@@ -37,7 +37,7 @@ bind_google_auth(user)
 
  **返回参数说明** 
 |参数名|类型|说明|
-|:-----  |:-----|-----                           |
+|:-----  |:-----|-----|
 |success |bool   | True/False |
 |data |string   | google令牌字符串(用于生成二维码) |
 
