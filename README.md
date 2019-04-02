@@ -59,6 +59,7 @@ delete_google_auth(user)
 |user |是  |string | 用户名 Or 邮箱   |
 
  **返回参数说明** 
+ 
 |参数名|类型|说明|
 |:-----  |:-----|-----|
 |success |bool   | True/False |
@@ -83,6 +84,7 @@ check_google_auth(user,code)
 |code |是  |string | 客户端动态码    |
 
  **返回参数说明** 
+ 
 |参数名|类型|说明|
 |:-----  |:-----|-----|
 |success |bool   | True/False |
