@@ -1,12 +1,12 @@
-from django_google_auth.models import DjangoGoogleAuthenticator2
+from django_google_auth2.models import DjangoGoogleAuthenticator2
 import base64,codecs,random,re
-from django_google_auth.utils.googletotp import googletotp
+from django_google_auth2.utils.googletotp import googletotp
 
 
 
 
 
-# from django_google_auth.google.bindgoogleauth.bindgoogleauth import bind_google_auth
+# from django_google_auth2.google.bindgoogleauth.bindgoogleauth import bind_google_auth
 
 def bind_google_auth(user):
     """

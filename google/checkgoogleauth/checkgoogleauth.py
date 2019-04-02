@@ -1,6 +1,5 @@
-from django_google_auth.models import DjangoGoogleAuthenticator2
+from django_google_auth2.models import DjangoGoogleAuthenticator2
 import pyotp
-
 
 
 
@@ -27,6 +26,6 @@ def check_google_auth(user,code):
 
     t = pyotp.TOTP(key)
     result = t.verify(code)  # 对输入验证码进行校验，正确返回True
-    res = result if result is True else False
+    ret = result if result is True else False
 
-    return res
+    return {"success":ret}

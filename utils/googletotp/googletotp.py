@@ -3,8 +3,8 @@ from __future__ import print_function, unicode_literals, division, absolute_impo
 import datetime
 import time
 
-from django_google_auth.utils.googleutils import googleutils
-from django_google_auth.utils.googleotp.googleotp import OTP
+from django_google_auth2.utils.googleutils import googleutils
+from django_google_auth2.utils.googleotp.googleotp import OTP
 
 
 class TOTP(OTP):

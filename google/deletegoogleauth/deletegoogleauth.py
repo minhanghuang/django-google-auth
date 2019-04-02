@@ -1,8 +1,8 @@
-from django_google_auth.models import DjangoGoogleAuthenticator2
+from django_google_auth2.models import DjangoGoogleAuthenticator2
 
 
 
-# from django_google_auth.google.deletegoogleauth.deletegoogleauth import delete_google_auth
+# from django_google_auth2.google.deletegoogleauth.deletegoogleauth import delete_google_auth
 
 def delete_google_auth(user):
     """
@@ -17,4 +17,8 @@ def delete_google_auth(user):
 
 
 
-    return None
+    return  {
+        "success":True,
+        "data":"删除成功"
+    }
+
