@@ -36,10 +36,14 @@ bind_google_auth(user)
 
 
  **返回参数说明** 
+ 
+ 
 |参数名|类型|说明|
-|:-----  |:-----|-----                           |
+|:-----  |:-----|-----|
 |success |bool   | True/False |
 |data |string   | google令牌字符串(用于生成二维码) |
+
+
 
 4. 解绑google令牌
 
@@ -54,15 +58,24 @@ delete_google_auth(user)
 
 **函数参数：** 
 
+
 |参数名|必选|类型|说明|
 |:----    |:---|:----- |-----   |
 |user |是  |string | 用户名 Or 邮箱   |
 
+
+
+
  **返回参数说明** 
+ 
+ 
 |参数名|类型|说明|
 |:-----  |:-----|-----|
 |success |bool   | True/False |
 |data |string   | 删除成功 |
+
+
+
 
 5. 验证google令牌
 
@@ -77,15 +90,22 @@ check_google_auth(user,code)
 
 **函数参数：** 
 
+
 |参数名|必选|类型|说明|
 |:----    |:---|:----- |-----   |
 |user |是  |string | 用户名 Or 邮箱   |
 |code |是  |string | 客户端动态码    |
 
+
+
  **返回参数说明** 
+ 
+ 
 |参数名|类型|说明|
 |:-----  |:-----|-----|
 |success |bool   | True/False |
+
+
 
 
 6. 绑定google令牌Api接口
